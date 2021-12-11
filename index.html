@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://use.fontawesome.com/54f4a433cb.js"></script>
 </head>
 <body>
     <div class="main">
@@ -13,14 +11,14 @@
             <h1>Contact Us</h1>
             <div class="top">
                 <section class="top1">
-                    <div class="cont">f</div>
-                    <div class="cont">t</div>
-                    <div class="cont">in</div>
+                    <a href="#"><div class="cont">f</div></a>
+                    <a href="#"><div class="cont">t</div></a>
+                    <a href="#"><div class="cont">in</div></a>
                 </section>
             </div>
             <div>
                 <p>or use our contact form below</p>
-                <form >
+                <form>
                     <p><input class="inform" type="email" name="email" value="" placeholder="Email"></p>
                     <p><input class="inform" type="tel" name="tel" value="" placeholder="Phone"></p>
                 </form>
@@ -28,16 +26,28 @@
             <div>
                 <p>Type your messege here:</p>
                 <form>
-                    <p><input class="mes" type="text" name="messege"></p>
+                    <p><textarea class="mes" name="messege"></textarea></p>
                 </form>
             </div>
             <div class="help">
-                <a href="#">Need additional help?</a>
+                <a class="ahelp" href="#">Need additional help?</a>
+            </div>
+            <div class="btn">
+                <a class="acont" href="#">CONTACT ME</a>
             </div>
         </div>
         <div class="right">
-
+            <div class="right_text">
+                <p class="strong">Hello, User!</p>
+                <br>
+                <p>If you want to know more info about our project than</p>
+            </div>
+            <div class="btn_div">
+                <div class="btn_arrow">
+                    <a href="#"><span><i class="fa fa-arrow-left" aria-hidden="true"></i></span></a>
+                </div>
+            </div>
         </div>
-    </div>
+    </div>   
 </body>
 </html>
